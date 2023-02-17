@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 1.6rem helvetica;
+    background-color: #edf0f5;
+}
+
+.login--container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 980px;
+    margin: 150px auto 50px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.facebook  {
+    width: 50%;
+    min-width: 400px;
+    margin-right: 32px;
+    margin-bottom: 25px;
+}
+
+
+.facebook-img {
+    height: 106px;
+    margin-left: -28px;
+}
+
+.facebook-text {
+    font-size: 1.5rem;
+    font-weight: normal;
+    width: auto;
+    
+}
+
+.login--account {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    width: 396px;
+    padding: 15px;
+    background-color: #fff;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+.form-field {
+    width: 100%;
+    border: 1px solid #dddfe2;
+    padding: 14px 16px;
+    border-radius: 6px;
+    display: flex;
+    position: relative;
+    margin: 6px 0 12px 0;
+}
+
+.form-field input {
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    width: 100%;
+}
+
+.vision-icons {
+    position: absolute;
+    right: 5px;
+    color: rgb(28, 27, 27);
+}
+
+.vision-icons div:hover {
+    background-color: #dddfe2;
+    border-radius: 40%;
+}
+
+.vision-icons i {
+    font-size: 20px;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 6px;
+    font-weight: bold;
+    padding: 10px 16px;
+    border: 0;
+}
+
+#login-btn {
+    width: 100%;
+    background-color: #1877f2;
+    color: #fff;
+    font-size: 1.22rem;
+    margin-bottom: 6px;
+}
+
+#forget-pass{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+#forget-pass a {
+    color: #1877f2;
+}
+
+.login--account hr{
+    margin: 16px 0;
+    border: 0;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.form-div {
+    margin: 20px 0 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#create {
+    color: #fff;
+    background-color: #42b72a;
+    height: 100%;
+    font-size: 1rem;
+    padding: 15px 16px;
+}
+
+.create-page {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.create-page a {
+    font-weight: bold;
+    color: black;
+}
+
+
+@media only screen and (max-width: 1080px) {
+    
+    .login--container{
+        margin-top: 50px;
+    }
+
+
+    .facebook , .login--section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .facebook-text {
+        width: 400px;
+        padding-left: 30px; 
+    }
+
+    .facebook {
+        margin: 20px auto;
+    }
+
+}
